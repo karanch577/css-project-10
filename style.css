@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+*{
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+font-family: "Roboto", sans-serif;
+}
+
+body{
+    color: #fff;
+    background-image: url(images/bg10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* icon sprites */
+
+.puzzle-icon{
+    background: url(images/Interior\ Design\ landing\ page.svg) 0px -30px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+}
+
+.bulb-icon{
+    background: url(images/Interior\ Design\ landing\ page.svg) -135px -35px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+}
+
+/* navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3em;
+    /* padding: 10em; */
+    height: 130px;
+
+}
+
+.logo{
+    align-self: flex-end;
+    font-size: 2rem;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #fff;
+}
+
+.lists{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.list{
+    margin-right: 2.5em;
+}
+.ph-no{
+    margin-left: .5em;
+}
+
+/* Hero Section */
+
+
+.hero-top{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    margin: 3em;
+    
+}
+
+.heading-main{
+    font-size: 3.5rem;
+    align-self: flex-end;
+
+}
+
+.hero-right{
+    background-color: rgb(187, 187, 187, .4);
+    height: 160px;
+    width: 270px;
+
+}
+
+.hero-description{
+    color: #fff;
+    padding: .6em 1.5em;
+}
+
+.hero-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3.5em;
+}
+
+button{
+    align-self: flex-start;
+    background-color: transparent;
+    color: #FFF;
+    border: 2px solid #fff;
+    font-size: 2rem;
+    padding: .5em 1.5em;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.line{
+    width: 1.5px;
+    height: 60px;
+    background-color: #fff;
+
+}
+
+.pos-line-top{
+    position: relative;
+    top: 28px;
+    left: 170px;
+}
+.pos-circle-top{
+    position: relative;
+    left: 161px;
+    top: 22px;
+}
+.pos-line-bottom{
+    position: relative;
+    top: -100px;
+    left: 299px;
+    transform: rotate(90deg);
+}
+.pos-circle-bottom{
+    position: relative;
+    left: 327px;
+    top: -139px;
+}
+.hero-right-bottom{
+    position: relative;
+    right: 220px;
+}
