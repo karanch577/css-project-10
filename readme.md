@@ -10,7 +10,7 @@
     - `rotate()`
 
 ## Time taken to complete this project
-    - 3 hours
+    - 3 hours + 3 hours(responsive)
 
 ## Screenshot
 ![image](project10.png)
