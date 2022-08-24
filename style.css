@@ -46,6 +46,11 @@ nav{
 
 }
 
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
 .logo{
     align-self: flex-end;
     font-size: 2rem;
